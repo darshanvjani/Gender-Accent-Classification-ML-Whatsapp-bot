@@ -1,1 +1,1 @@
-web: gunicorn twilion:app --preload
+web: gunicorn twilion:app 
