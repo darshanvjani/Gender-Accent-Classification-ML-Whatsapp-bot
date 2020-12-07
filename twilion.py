@@ -25,7 +25,7 @@ from pydub import AudioSegment
 
 app = Flask(__name__)
 
-@app.route("/sms", methods=['POST'])
+@app.route("/", methods=['POST'])
 def sms_reply():
     """Respond to incoming calls with a simple text message."""
     # Fetch the me
