@@ -4,3 +4,7 @@ libasound2-dev
 python-dev 
 python-numpy
 python-setuptools
+ffmpeg 
+libav-tools
+libavcodec-extra-53 
+
