@@ -10,3 +10,4 @@ numpy == 1.19.2
 pydub == 0.24.1
 gunicorn == 20.0.4
 soundfile == 0.10.3.post1
+xgboost == 0.90
