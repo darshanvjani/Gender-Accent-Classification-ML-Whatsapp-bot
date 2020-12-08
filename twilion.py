@@ -11,8 +11,8 @@ import pickle
 transformer = pickle.load(open('scaler','rb')) #the one which is trained on whole dataset (librosa + freq)1.32M
 gender = pickle.load(open('gender_withoutSMT.pkl','rb')) #the one which is trained on whole dataset (librosa + freq)1.32M
 #mf_transformer = pickle.load(open('mf_scaler.pkl','rb'))
-transformer_old_data = pickle.load(open('scaler.sav','rb'))
-male_female_old_data = pickle.load(open('male_female.sav','rb'))
+#transformer_old_data = pickle.load(open('scaler.sav','rb'))
+#male_female_old_data = pickle.load(open('male_female.sav','rb'))
 accent = pickle.load(open('accent.pkl','rb'))  #the one which is trained on whole dataset (librosa + freq)1.32M
 
 import pandas as pd
